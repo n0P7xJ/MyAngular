@@ -1,0 +1,74 @@
+# =========================
+# Node.js dependencies
+# =========================
+node_modules/
+
+# =========================
+# Production build
+# =========================
+dist/
+tmp/
+out-tsc/
+
+# =========================
+# Angular specific cache
+# =========================
+.angular/
+.angular/cache/
+
+# =========================
+# Environment variables
+# =========================
+*.env
+*.env.local
+*.env.*.local
+
+# =========================
+# Logs
+# =========================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =========================
+# Testing
+# =========================
+coverage/
+*.lcov
+
+# =========================
+# System files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Editor / IDE settings
+# =========================
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# =========================
+# TypeScript build info
+# =========================
+*.tsbuildinfo
+
+# =========================
+# Optional cache directories
+# =========================
+.cache/
+.parcel-cache/
+.vite/
+
+# =========================
+# Firebase / Hosting
+# =========================
+.firebase/
+functions/node_modules/
+
