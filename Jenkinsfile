@@ -25,7 +25,7 @@ pipeline {
           } else {
             sh '''
               docker rm -f angular-app || true
-              docker run -d --name angular-app -p 8080:80 --restart always angular-app:latest
+              docker run -d --name angular-app -p 8081:80 --restart always angular-app:latest
             '''
           }
         }
