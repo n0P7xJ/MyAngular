@@ -1,0 +1,20 @@
+# Node modules та кеш
+node_modules
+npm-debug.log*
+yarn-error.log*
+
+# Angular build output
+dist
+.angular
+
+# Git файли
+.git
+.gitignore
+
+# CI/CD файли
+Dockerfile
+Jenkinsfile
+
+# IDE
+.vscode
+.idea
